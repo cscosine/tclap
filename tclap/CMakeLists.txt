@@ -9,7 +9,6 @@ cs_target_sources(tclap
 		ArgException.h
 		Arg.h
 		ArgTraits.h
-		CMakeLists.txt
 		CmdLine.h
 		CmdLineInterface.h
 		CmdLineOutput.h
