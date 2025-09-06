@@ -4,7 +4,7 @@ project(tclapSol VERSION 1.0.0 LANGUAGES CXX)
 # add the csCMake system
 include(csCMake)
 
-cs_initialize_project(tclapSol
+cs_initialize_project(tclapSol CXX_STANDARD 17
     # add the default configurations supported by this project, only Release
     DEFAULT_CONFIG Release
 )
