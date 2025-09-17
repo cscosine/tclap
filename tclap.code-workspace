@@ -7,11 +7,11 @@
   "settings": {
     // Tell CMake Tools to use the default preset
     "cmake.useCMakePresets": "always",
-    "cmake.configurePreset": "linux-ninja-debug",
-    "cmake.buildPreset": "linux-ninja-debug",
+    "cmake.configurePreset": "linux-ninja-release",
+    "cmake.buildPreset": "linux-ninja-release",
 
     // IntelliSense via compile_commands.json
-    "C_Cpp.default.compileCommands": "${workspaceFolder}/../build/linux-ninja/tclap/debug/compile_commands.json",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/../build/linux-ninja/tclap/release/compile_commands.json",
     "C_Cpp.intelliSenseEngine": "disabled",
 
     // Optional: CMake Tools logging
@@ -20,6 +20,6 @@
     "clangd.arguments": ["-log=verbose",
                          "-pretty",
                          "--background-index",
-                         "--compile-commands-dir=${workspaceFolder}/../build/linux-ninja/tclap/debug"]
+                         "--compile-commands-dir=${workspaceFolder}/../build/linux-ninja/tclap/release"]
   }
 }
