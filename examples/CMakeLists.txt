@@ -40,6 +40,11 @@ foreach(s ${SAMPLES_LIST})
 	cs_add_executable(tclapExamples_${sn})
 	cs_target_sources(tclapExamples_${sn} PRIVATE ${s})
 	cs_target_link_libraries(tclapExamples_${sn} PRIVATE tclap::tclap)
-	cs_install_target(tclapExamples_${sn} tclapExamples_${sn})
-	cs_finalize_target(tclapExamples_${sn})
+	
+    # note: not installed on purpose - tclap is a header-only library and the
+	# examples are built only to validate the headers, they are not part of
+	# the install tree
+    # cs_install_target(tclapExamples_${sn} tclapExamples_${sn})
+	
+    cs_finalize_target(tclapExamples_${sn})
 endforeach()
