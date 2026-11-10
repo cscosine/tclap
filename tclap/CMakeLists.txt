@@ -36,7 +36,7 @@ cs_target_sources(tclap
 
 cs_target_link_libraries(tclap
 	INTERFACE
-		tclapSol::tclapSol_csCMakeBaseInclude
+		tclap::cscmake_base_include
 )
 
 cs_install_target(tclap tclap DEFAULT)
