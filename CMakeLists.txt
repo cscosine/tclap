@@ -12,6 +12,3 @@ cs_initialize_project(NAMESPACE tclap CXX_STANDARD 17
 # add libs, executables, etc
 add_subdirectory(tclap)
 add_subdirectory(examples)
-
-# remember to add this at the end of the main cmake file
-cs_finalize_project()

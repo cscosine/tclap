@@ -44,7 +44,5 @@ foreach(s ${SAMPLES_LIST})
     # note: not installed on purpose - tclap is a header-only library and the
 	# examples are built only to validate the headers, they are not part of
 	# the install tree
-    # cs_install_target(tclapExamples_${sn} tclapExamples_${sn})
-	
-    cs_finalize_target(tclapExamples_${sn})
+    # cs_install_target(tclapExamples_${sn} COMPONENT tclapExamples_${sn})
 endforeach()

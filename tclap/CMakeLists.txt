@@ -39,6 +39,4 @@ cs_target_link_libraries(tclap
 		tclap::cscmake_base_include
 )
 
-cs_install_target(tclap tclap DEFAULT)
-
-cs_finalize_target(tclap)
+cs_install_target(tclap COMPONENT tclap DEFAULT)
