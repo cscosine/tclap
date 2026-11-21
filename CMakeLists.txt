@@ -1,8 +1,16 @@
-cmake_minimum_required(VERSION 3.7)
+cmake_minimum_required(VERSION 3.31)
+project(tclapSol VERSION 1.0.0 LANGUAGES CXX)
 
-project(TCLAP VERSION 1.2.2)
+# add the csCMake system
+include(csCMake)
 
-set(CMAKE_CXX_STANDARD 98)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
+cs_initialize_project(
+  NAMESPACE tclap
+  CXX_STANDARD 17
+  # add the default configurations supported by this project, only Release
+  DEFAULT_CONFIG Release
+)
 
+# add libs, executables, etc
+add_subdirectory(tclap)
 add_subdirectory(examples)
