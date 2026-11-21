@@ -1,0 +1,42 @@
+# Owned by the project template (cs-project-template): change it there. Project lines: at the end, after the marker.
+* text=auto
+
+# Python
+*.py diff=python
+*.pyi diff=python
+
+# Markdown
+*.md diff=markdown
+
+# Line endings: LF for the scripts (PowerShell runs LF scripts on every OS; the template writes them with LF)
+*.sh text eol=lf
+*.ps1 text eol=lf
+*.bat text eol=crlf
+
+# C++, CUDA and CMake sources, JSON (CMakePresets.json, ...): LF on every OS
+*.h text eol=lf
+*.hpp text eol=lf
+*.hxx text eol=lf
+*.cpp text eol=lf
+*.cc text eol=lf
+*.cxx text eol=lf
+*.inl text eol=lf
+*.ipp text eol=lf
+*.cu text eol=lf
+*.cuh text eol=lf
+*.json text eol=lf
+*.cmake text eol=lf
+*.cmake.in text eol=lf
+CMakeLists.txt text eol=lf
+
+# Binary safety
+*.png binary
+*.jpg binary
+*.zip binary
+*.exe binary
+*.pkl binary
+
+# --- project ---
+# upstream files with Windows line endings, kept as they are
+msc/** -text
+docs/style.css -text
