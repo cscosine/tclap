@@ -13,7 +13,7 @@ Who owns which file (template: [cs-project-template](https://github.com/cscosine
 there, then `copier update --defaults`; never edit its parts here):
 
 - Template: `.clang-format`,
-  `.vscode/`, `.github/`, `CLAUDE.md`, `.claude/cscosine-rules.md`, `.claude/settings.json`,
+  `.vscode/`, `.github/` (the workflows: `checks.yml` only), `CLAUDE.md`, `.claude/cscosine-rules.md`, `.claude/settings.json`,
   `LICENSE`.
 - Template and project: `.pre-commit-config.yaml` (project hooks
   between the `project: begin` / `project: end` markers), `.gitignore`, `.gitattributes` (project lines after
