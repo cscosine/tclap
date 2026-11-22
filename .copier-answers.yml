@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: v1.1.1
+_commit: v1.1.4
 _src_path: /home/sceriani/myWorkspace/cs-project-template
 description: 'TCLAP command line parser (header-only): the cscosine copy, to be replaced'
 kind: library
