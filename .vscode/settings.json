@@ -3,5 +3,14 @@
   "files.exclude": {
     "**/__pycache__": true
   },
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "[c]": {
+    "editor.formatOnSave": false
+  },
+  "[cpp]": {
+    "editor.formatOnSave": false
+  },
+  "[cuda-cpp]": {
+    "editor.formatOnSave": false
+  }
 }
