@@ -12,7 +12,7 @@ Commands:
 Who owns which file (template: [cs-project-template](https://github.com/cscosine/cs-project-template); change it
 there, then `copier update --defaults`; never edit its parts here):
 
-- Template: `.clang-format`,
+- Template: `open-code.sh`, `open-code.ps1`, `.clang-format`,
   `.vscode/`, `.github/` (the workflows: `checks.yml` only), `CLAUDE.md`, `.claude/cscosine-rules.md`, `.claude/settings.json`,
   `LICENSE`.
 - Template and project: `.pre-commit-config.yaml` (project hooks
